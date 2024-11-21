@@ -6,9 +6,9 @@
 // Global information configuration
 #let s = (s.methods.info)(
   self: s,
-  title: [Touying for HKUSTGZ: Customize Your Slide Title Here],
-  subtitle: [Customize Your Slide Subtitle Here],
-  author: [Authors],
+  title: [Semidefinite Programming in Ground State Energy Calculation],
+  subtitle: [Goemans-Williamson Algorithm and Bootstrap Method],
+  author: [Yusheng Zhao],
   date: datetime.today(),
   institution: [HKUST(GZ)],
   others: none
@@ -22,22 +22,28 @@
 #let (slide, empty-slide, title-slide, outline-slide, new-section-slide, ending-slide) = utils.slides(s)
 #show: slides.with()
 
-= The section I
+=
 
-== Slide I / i
+== MaxCut Problem
 
-Slide content.
+== Classical Ising Model
 
-== Slide I / ii
+== Goemans-Williamson Algorithm
 
-Slide content.
+Probabilistic Algorithm whose answer is within 0.878 of the optimal solution.
 
-= The section II
+== Variable Relaxation
 
-== Slide II / i
+== Change of Variable and Semidefinite Programming Formalism
 
-Slide content.
+== Project back 
 
-== Slide II / ii
+== Bounding the Ground State
 
-Slide content.
+== Bootstrap Quantum Anharmonic Oscillator 
+
+== E and <$x^2$> as unknown 
+
+== Recursive Relation
+
+== Search for Consistent E and <$x^2$>
